@@ -1,0 +1,105 @@
+@import "indexStyle.css";
+
+.bgimg-1 {
+    min-height: 400px;
+}
+
+.container h1,
+.w3-container h2,
+.container-3 h1 {
+    text-align: center;
+}
+
+.exp-list li {
+    margin-bottom: 20px;
+}
+
+.w3-container {
+    padding-bottom: 30px;
+}
+
+.container-3 {
+    text-align: center;
+}
+
+.container-3 p {
+    padding: 5px 0px;
+}
+
+.container-3 h4 {
+    font-weight: 600;
+}
+
+.certificates img {
+    width: 300px;
+}
+
+.adobeimages {
+    width: 700px;
+    height: 400px;
+    padding: 10px;
+}
+
+.projects-sec {
+    /*  display: inline-flex;*/
+    display: block;
+    text-align: center !important;
+}
+
+.projects-sec li {
+    list-style-type: none;
+    /*text-align: justify;*/
+    margin: 20px 20px;
+}
+
+@media(max-width: 1200px) {
+    .projects-sec {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .adobeimages {
+        display: table;
+        margin: 0 auto;
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .projects-sec li {
+        margin: 0;
+    }
+}
+
+.viewproject-btn>a {
+    text-align: center !important;
+    display: block !important;
+    text-decoration: none;
+    border: 2px solid #000;
+    width: 185px;
+    align-items: center;
+    /* vertical-align: middle; */
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.viewproject-btn>a:hover {
+    background-color: #000;
+    width: 190px;
+    color: #fff;
+}
+
+.project-heading {
+    font-size: 26px;
+}
+
+#Projects {
+    font-size: 32px;
+}
+
+.projects-sec li a:hover {
+    text-decoration: none;
+}

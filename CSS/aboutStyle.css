@@ -1,0 +1,19 @@
+@import "indexStyle.css";
+
+.bgimg-1 {
+    min-height: 400px;
+}
+
+
+.container h1,
+.w3-container h2 {
+    text-align: center;
+}
+
+.exp-list li {
+    margin-bottom: 20px;
+}
+
+.w3-container {
+    padding-bottom: 30px;
+}

@@ -1,0 +1,215 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    color: #000;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url("Images/technology-785742_1280.jpg");
+    min-height: 700px;
+    opacity: 1;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("Images/AdobeStock_307073324.jpeg");
+    min-height: 300px;
+    opacity: 1;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("/w3images/parallax3.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {
+    letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+    cursor: pointer;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1200px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+
+    .w3-padding-large {
+        padding: 5px 5px !important;
+    }
+
+    .w3-xlarge {
+        font-size: 14px !important;
+    }
+
+    .w3-wide {
+        letter-spacing: 7px;
+    }
+}
+
+#myNavbar .w3-bar-item {
+    color: #fff !important;
+}
+
+.w3-white,
+.w3-hover-white:hover {
+    background-color: #000 !important;
+}
+
+.w3-button:hover {
+    color: #000 !important;
+    background-color: #3b3535 !important;
+}
+
+@media only screen and (max-device-width: 750px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+        min-height: 250px;
+    }
+}
+
+.w3-bar-block .w3-bar-item,
+.w3-button:hover {
+    color: #fff !important;
+}
+
+.skills ul li,
+.exp ul li {
+    display: inline-flex;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.skills,
+.exp {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.skills li img {
+    width: 150px;
+}
+
+.exp li img {
+    width: 230px;
+}
+
+@media(max-width: 750px) {
+    .exp li img {
+        width: 150px;
+        text-align: center;
+    }
+
+    .exp ul {
+        padding: 10px;
+        margin: 0 !important;
+    }
+
+    .skills li img {
+        width: 100px;
+    }
+
+    .Projects {
+        padding-top: 0px !important;
+    }
+}
+
+.skills-sec,
+.exp-sec {
+    padding-top: 30px;
+}
+
+.skills-sec h2,
+.exp-sec h2 {
+    text-align: center;
+}
+
+.eduation {
+    background-color: #000;
+}
+
+.quote-sec {
+    font-family: 'Carattere';
+    letter-spacing: 0px;
+}
+
+.Projects h2,
+.Projects h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.Projects h3 {
+    padding-top: 20px;
+}
+
+.Projects {
+    padding: 50px 0px;
+}
+
+.icons-banner {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 12px;
+}
+
+.banner-btn {
+    text-align: center !important;
+    display: block !important;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    width: 185px;
+    align-items: center;
+    /* vertical-align: middle; */
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.banner-btn:hover {
+    background-color: #000;
+    width: 190px;
+}
+
+#contact>a:before {
+    font-size: 26px;
+}
+
+#contact.w3-section {
+    letter-spacing: 3px;
+}

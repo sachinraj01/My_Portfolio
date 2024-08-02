@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sachin Raj Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Carattere">
+    <link rel="stylesheet" href="CSS/projectsStyle.css">
+</head>
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+            <a href="about.html" class="w3-bar-item w3-button w3-hide-small"> ABOUT</a>
+            <a href="projects.html" class="w3-bar-item w3-button w3-hide-small"> PROJECTS</a>
+            <a href="mailTo:nayak.sachinraj@gmail.com" class="w3-bar-item w3-button w3-hide-small"> CONTACT</a>l̥
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
+            <a href="about.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a href="projects.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
+            <a href="mailTo:nayak.sachinraj@gmail.com" class="w3-bar-item w3-button"
+                onclick="toggleFunction()">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-text-white w3-xlarge w3-wide w3-animate-opacity">HI! IAM<span
+                    class="w3-hide-small"></span> SACHIN RAJ R</span>
+            <p class="icons-banner"><a href="https://github.com/sachinraj01" target="_blank"><i class="fa fa-github"
+                        aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/sachin-raj-6541a3219/" target="_blank"><i class="fa fa-linkedin"
+                        aria-hidden="true"></i></a>
+                <a href="Assets/Sachin.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            </p>
+            <a href="projects.html#Certifications&Projects" class="banner-btn">PROJECTS</a>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="container-3 w3-content w3-container w3-padding-64">
+            <h1 id="Certifications&Projects">CERTIFICATIONS AND PROJECTS</h1><br>
+
+            <h2>CERTIFICATES</h2>
+            <div id="certifications"></div>
+
+            <h2 id="Projects">PROJECTS</h2>
+            <div id="projects"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact" class="w3-center w3-black w3-padding-32 w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+            <a href="https://www.linkedin.com/in/sachin-raj-6541a3219/" target="_blank"><i
+                    class="fa fa-linkedin w3-hover-opacity"></i></a>
+            <a href="mailTo:nayak.sachinraj@gmail.com"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+            <a href="https://github.com/sachinraj01" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="Assets/Sachin.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+
+    <script src="Script/script.js">
+    </script>
+
+</body>
+
+</html>

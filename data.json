@@ -1,0 +1,55 @@
+{
+    "certifications": [
+        {
+            "title": "Business Analysis & Process Management – Coursera",
+            "description": "The Business Analysis & Process Management course on Coursera equips learners with the skills to analyze business processes, identify improvement opportunities, and implement efficient workflows. It covers key concepts such as process mapping, data analysis, and process optimization techniques.",
+            "image": "Certificate/Coursera PM.png"
+        },
+        {
+            "title": "Certified Associate in Project Management (CAPM®) – Simplilearn",
+            "description": "The Certified Associate in Project Management (CAPM®) course by Simplilearn provides foundational knowledge of project management principles and practices. It prepares learners for the CAPM® certification exam, covering essential topics such as project planning, execution, and monitoring.",
+            "image": "Certificate/capm.png"
+        },
+        {
+            "title": "Data Analysis using Microsoft Excel – Coursera",
+            "description": "The Data Analysis using Microsoft Excel course on Coursera teaches essential Excel skills for analyzing and visualizing data. Learners gain proficiency in functions, pivot tables, and data visualization techniques to make informed business decisions.",
+            "image": "Certificate/Coursera excel.png"
+        },
+        {
+            "title": "Introduction to Tableau – Simplilearn",
+            "description": "The Introduction to Tableau course by Simplilearn provides foundational skills in data visualization using Tableau. Learners will master creating interactive dashboards and insightful visualizations to drive data-driven decision-making.",
+            "image": "Certificate/tableau.png"
+        },
+        {
+            "title": "Agile Scrum Master (ASM®) – Simplilearn",
+            "description": "The Agile Scrum Master (ASM®) course by Simplilearn covers the principles and practices of Agile and Scrum methodologies. It prepares learners to manage Agile projects effectively, focusing on roles, artifacts, and ceremonies within a Scrum framework.",
+            "image": "Certificate/Agile.jpeg"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Competitive Analysis Reports",
+            "date": "July 2024",
+            "tech_stack": "Excel, Power BI, Asana",
+            "role": "Intern",
+            "problem_statement": "The recruitment marketing industry lacks comprehensive and actionable insights from secondary data sources, leading to suboptimal market strategies and product offerings.",
+            "solution": "By implementing a coordinated data collection and analysis process, we generate insightful reports and actionable analytics, enabling enhanced market strategies and optimized product offerings."
+        },
+        {
+            "title": "Market Performance Analysis",
+            "date": "Jan 2023",
+            "tech_stack": "Advanced MS Excel",
+            "role": "Project Coordinator and Team Lead",
+            "problem_statement": "Market performance analysis of concrete chemicals lacked actionable insights due to unstructured data and inefficient reporting methods.",
+            "solution": "Implemented advanced Excel functions and interactive dashboards to streamline data processing and enhance decision-making through clear visualization of KPIs and trends."
+        },
+        {
+            "title": "Pharmaceutical Sales Analysis Dashboard",
+            "date": "March 2024",
+            "tech_stack": "SQL, Power BI",
+            "role": "------",
+            "problem_statement": "Inefficient sales data analysis and reporting hindered decision-making.",
+            "solution": "Developed a comprehensive Power BI dashboard and reports, providing integrated sales metrics and performance insights for enhanced decision-making."
+        }
+    ]
+}

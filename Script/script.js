@@ -30,25 +30,34 @@ document.addEventListener('DOMContentLoaded', function () {
 
             data.certifications.forEach(cert => {
                 const certHTML = `
-                    <div class="certificate">
-                        <h4>${cert.title}</h4>
+                    <h4>${cert.title}</h4>
+                    <div class="certificate w3-left-align">
                         <p>${cert.description}</p>
-                        <p class="certificates"><img src="${cert.image}" alt="CERTIFICATIONS" /></p>
                     </div>
+                    <p class="certificates"><img src="${cert.image}" alt="CERTIFICATIONS" /></p>
                     <br>
                 `;
                 certificationsContainer.innerHTML += certHTML;
             });
 
             data.projects.forEach(proj => {
+
+                let imagesHTML = '';
+                proj.image.forEach(images => {
+                    imagesHTML += `<li><img class="adobeimages" src="${images}" alt=" " /></li>`;
+                });
+
                 const projHTML = `
                     <ul class="projects-sec">
-                        <li><strong class="project-heading">${proj.title} (${proj.date})</strong><br />
-                            <ul>
-                                <li><b>Tech Stack:</b> ${proj.tech_stack}</li>
-                                <li><b>Role:</b> ${proj.role}</li>
-                                <li><b>Problem Statement:</b> ${proj.problem_statement}</li>
-                                <li><b>Solution:</b> ${proj.solution}</li>
+                        <li ><strong class="project-heading">${proj.title}</strong><br />
+                        ${imagesHTML}    
+                        <ul>
+                                <div class="w3-left-align">
+                                    <li><b>Problem Statement:</b> ${proj.problem_statement}</li>
+                                    <li><b>Solution:</b> ${proj.solution}</li>
+                                    <li><b>Insights:</b> ${proj.insights}</li>
+                                    <li><b>Suggestions:</b> ${proj.suggestions}</li>
+                                </div>
                             </ul>
                         </li>
                     </ul>

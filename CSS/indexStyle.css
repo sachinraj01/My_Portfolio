@@ -213,3 +213,9 @@ html {
 #contact.w3-section {
     letter-spacing: 3px;
 }
+
+.adobeimages {
+    width: 700px;
+    height: 400px;
+    padding: 10px;
+}

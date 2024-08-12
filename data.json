@@ -28,28 +28,25 @@
     ],
     "projects": [
         {
-            "title": "Competitive Analysis Reports",
-            "date": "July 2024",
-            "tech_stack": "Excel, Power BI, Asana",
-            "role": "Intern",
-            "problem_statement": "The recruitment marketing industry lacks comprehensive and actionable insights from secondary data sources, leading to suboptimal market strategies and product offerings.",
-            "solution": "By implementing a coordinated data collection and analysis process, we generate insightful reports and actionable analytics, enabling enhanced market strategies and optimized product offerings."
+            "title": "Sales Analysis Dashboard using Power BI",
+            "image": [
+                "Projects/sachin_page-0001.jpg"
+            ],
+            "problem_statement": "The sales dashboard reveals significant challenges in 2019, with a more than 10% decrease in overall sales, declining performance in the top 7 products, and a few key customers contributing to this downturn. Despite these challenges, the export channel shows a higher profit margin, suggesting uneven profitability across channels.",
+            "solution": "The Power BI report offers a comprehensive analysis of sales, profit, orders, and profit margins. It includes dynamic comparisons by product, month, city, channel, and customer, helping to identify the factors contributing to sales declines. Slicers for date, city, product, and channel enable tailored insights and trend analysis.",
+            "insights": "Sales decreased by over 10%, with the top 7 products significantly underperforming. Four key customers are driving the drop in sales. The export channel, despite lower sales, maintains a higher profit margin.",
+            "suggestions": "Focus on improving product performance and customer retention strategies. Capitalize on the higher profit margin in the export channel to offset domestic losses. Consider targeted marketing campaigns to address declining sales in underperforming products and regions."
         },
         {
-            "title": "Market Performance Analysis",
-            "date": "Jan 2023",
-            "tech_stack": "Advanced MS Excel",
-            "role": "Project Coordinator and Team Lead",
-            "problem_statement": "Market performance analysis of concrete chemicals lacked actionable insights due to unstructured data and inefficient reporting methods.",
-            "solution": "Implemented advanced Excel functions and interactive dashboards to streamline data processing and enhance decision-making through clear visualization of KPIs and trends."
-        },
-        {
-            "title": "Pharmaceutical Sales Analysis Dashboard",
-            "date": "March 2024",
-            "tech_stack": "SQL, Power BI",
-            "role": "------",
-            "problem_statement": "Inefficient sales data analysis and reporting hindered decision-making.",
-            "solution": "Developed a comprehensive Power BI dashboard and reports, providing integrated sales metrics and performance insights for enhanced decision-making."
+            "title": "Sales Analysis Dashboard using Power BI",
+            "image": [
+                "Projects/Diversity & Inclusion_page-0001.jpg",
+                "Projects/Diversity & Inclusion_page-0002.jpg"
+            ],
+            "problem_statement": "The organization seeks to evaluate its Diversity and Inclusion (D&I) efforts, focusing on gender balance across different job roles, regions, age groups, and levels within the company. Despite efforts to increase the representation of women in the workforce, challenges persist in achieving gender parity, especially in leadership positions. Specifically, while there has been a noticeable increase in the representation of women in hiring and the executive team (from 12.5% to 15% between 2020 and 2021), disparities remain in promotion rates at senior levels, turnover ratios, and gender distribution across age groups.",
+            "solution": "To address these challenges, the organization should leverage the insights gained from the Power BI dashboard to inform targeted D&I strategies. The data analysis should guide the development of initiatives aimed at improving gender balance, particularly in leadership positions, reducing turnover among women, and ensuring equal opportunities for promotion across all levels.",
+            "insights": "Increase in Female Representation: The proportion of women in the executive team increased from 12.5% to 15% between 2020 and 2021, indicating progress in gender diversity at the leadership level. However, this remains below the desired parity. Age Distribution: The majority of employees are in the 20-29 age group, with the least number of employees in the 60-69 age group. This suggests a youthful workforce, potentially with implications for succession planning and experience gaps. Turnover Ratios: The turnover ratio for women is higher (11%) compared to men (9%). This could indicate potential issues related to job satisfaction, work-life balance, or other factors disproportionately affecting female employees. Promotion Disparities: In the bottom three levels, women have a higher promotion rate than men, suggesting that entry-level and mid-level roles offer more opportunities for advancement to women. However, in the top three levels, men are promoted at higher rates than women, indicating a gender gap in senior-level promotions.",
+            "suggestions": "Strengthen Leadership Development for Women: Implement targeted leadership development programs for women to prepare them for senior roles. Mentorship, sponsorship, and networking opportunities can be crucial in bridging the promotion gap at higher levels. Address Turnover Discrepancies: Conduct further analysis to understand the reasons behind the higher turnover rate among women. Consider implementing policies that address work-life balance, career development, and workplace culture to retain female talent. Enhance Recruitment and Succession Planning: Focus on recruiting diverse candidates, particularly in age groups where representation is low. For the younger workforce, ensure there are clear career progression pathways to retain talent and prepare them for future leadership roles. Review Promotion Policies: Evaluate the promotion criteria and processes at senior levels to ensure they are equitable. Consider implementing unconscious bias training for those involved in promotion decisions to create a more level playing field. Continuous Monitoring and Reporting: Regularly monitor and report on D&I metrics, using the Power BI dashboard, to track progress and adjust strategies as needed. Transparency in reporting can also help in holding leadership accountable for D&I goals."
         }
     ]
 }

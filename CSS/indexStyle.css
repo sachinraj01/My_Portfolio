@@ -220,33 +220,23 @@ html {
     padding: 10px;
 }
 
-/* Add these styles to your CSS file */
 .degrees {
     font-size: 1.5rem;
-    /* Adjusted base font size */
     line-height: 1.4;
-    /* Line height for readability */
     white-space: normal;
-    /* Allow text to wrap on smaller screens */
 }
 
-/* Responsive styles for smaller screens */
 @media screen and (max-width: 768px) {
     .degrees {
         font-size: 1.2rem;
-        /* Smaller font size for tablets */
         padding: 0 10px;
-        /* Add some padding for better alignment */
     }
 }
 
 @media screen and (max-width: 480px) {
     .degrees {
         font-size: 1rem;
-        /* Smaller font size for mobile phones */
         white-space: normal;
-        /* Ensure text wraps */
         padding: 0 5px;
-        /* Adjust padding for smaller screens */
     }
 }
